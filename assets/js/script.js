@@ -33,8 +33,6 @@ while (true) {
 
 };
 
-
-
 // Write password to the #password input
 function writePassword(password) {
   var passwordLength = 0;
@@ -53,7 +51,7 @@ function writePassword(password) {
 }
 
 
-//select random from options
+//select random from lowercase alpha
 function getRandomLower(count) {
   response = "";
   while (count > 0){
@@ -63,6 +61,7 @@ function getRandomLower(count) {
   return response;
 }
 
+//select random from uppercase alpha
 function getRandomUpper(count) {
   response = ""
   while (count > 0){
@@ -72,6 +71,7 @@ function getRandomUpper(count) {
   return response;
 }
 
+//select random from numbers
 function getRandomNumber(count) {
   response = ""
   while (count > 0){
@@ -81,6 +81,7 @@ function getRandomNumber(count) {
   return response;
 }
 
+//select random from special characters
 function getRandomSymbol(count) {
   var symbols = "\" !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   response = ""
