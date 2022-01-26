@@ -14,7 +14,7 @@ This information is then passed into the text box above the generate button, giv
 
 ## Installation
 
-You can find the deployed site [here.](https://allysonmcgrath.github.io/cbcchallenge3/)
+You can find the deployed site [here.](https://allysonmcgrath.github.io/password-generator/)
 
 To install the entire project and access the code, you can clone the repository by using the command prompt
 
